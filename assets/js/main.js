@@ -8,8 +8,8 @@ const shoppingList = [
 const listEl = document.querySelector('.shopping_list');
 let i = 0;
 while (i<shoppingList.length){
-    const listElement = shoppingList[i];
-    console.log(listElement);
+    const listitem = shoppingList[i];
+    console.log(listitem);
     const listItemMarkup = `<li>${shoppingList[i]}</li>`;
     listEl.insertAdjacentHTML('beforeend', listItemMarkup);
     i++
